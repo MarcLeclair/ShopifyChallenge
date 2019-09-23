@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/startGameFragment">
+
+    <fragment
+        android:id="@+id/startGameFragment"
+        android:name="com.shopifychallenge.cardgame.StartGameFragment"
+        android:label="StartGameFragment" >
+        <action
+            android:id="@+id/action_startGameFragment_to_overviewFragment"
+            app:destination="@id/overviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.shopifychallenge.cardgame.overview.GameFragment"
+        android:label="OverviewFragment" >
+        <argument
+            android:name="numOfRows"
+            app:argType="integer" />
+        <argument
+            android:name="numOfColumns"
+            app:argType="integer" />
+        <argument
+            android:name="numOfPairs"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_overviewFragment_to_startGameFragment"
+            app:destination="@id/startGameFragment" />
+    </fragment>
+</navigation>

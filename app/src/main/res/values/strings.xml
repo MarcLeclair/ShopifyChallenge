@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Memory Game Matcher Shopify Challenge</string>
+    <string name="show_all">Show all</string>
+    <string name="show_rent">Rent</string>
+    <string name="show_buy">Buy</string>
+    <string name="type_rent">Rent</string>
+    <string name="type_sale">Sale</string>
+    <string name="display_type">For %s</string>
+    <string name="display_price_monthly_rental">$%,.0f/month</string>
+    <string name="display_price">$%,.0f</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="chose">Column#</string>
+    <string name="chose_row">Row#</string>
+    <string name="number_of_col_1">6</string>
+    <string name="number_of_col_2">8</string>
+    <string name="number_of_col_3">10</string>
+    <string name="number_of_row_1">4</string>
+    <string name="number_of_row_2">6</string>
+    <string name="number_of_row_3">8</string>
+    <string name="match_1">2</string>
+    <string name="match_2">4</string>
+    <string name="match_3">6</string>
+    <string name="won_title">You won!!</string>
+    <string name="won">You won the game, press finish to go back to the main screen</string>
+    <string name="agree">Finished</string>
+
+
+    <string-array name="columns">
+        <item>@string/number_of_col_1</item>
+        <item>@string/number_of_col_2</item>
+        <item>@string/number_of_col_3</item>
+    </string-array>
+
+    <string-array name="rows">
+        <item>@string/number_of_row_1</item>
+        <item>@string/number_of_row_2</item>
+        <item>@string/number_of_row_3</item>
+    </string-array>
+    <string-array name="pair">
+        <item>@string/match_1</item>
+        <item>@string/match_2</item>
+        <item>@string/match_3</item>
+    </string-array>
+</resources>
